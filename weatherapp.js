@@ -23,7 +23,7 @@ function weather(){
 	rp(options)
 	    .then((response) =>{
 	    	if(!response){
-	    		getWeather();
+	    		Weather();
 	    	}
 	    	let weatherInfo = response;
 	    	printWeather(weatherInfo);
