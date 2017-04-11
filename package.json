@@ -1,0 +1,17 @@
+{
+  "name": "httpcli",
+  "version": "1.0.0",
+  "description": "A weather App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Temmyogunbo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "readline": "^1.3.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
